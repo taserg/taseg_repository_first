@@ -1,5 +1,7 @@
-f = open('students1.csv')
+class System:
+    pass
+
+f = open('students.csv')
 f = f.readline()
 
-for i in f:
-    print(i)
+print(f)
