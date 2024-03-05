@@ -14,7 +14,7 @@ for i in f:
     info.Class = inp[3]
     info.Score = inp[4][:-1]
     info.Login = inp[1].split()[0]+'_'+inp[1].split()[1][0]+inp[1].split()[2][0]
-    info.Password = ''.join([random.choice(list('123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM')) for x in range(12)])
+    info.Password = ''.join([random.choice(list('123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM')) for x in range(8)])
     students.append(info)
 
 fo = open('students_password.csv', 'w')
